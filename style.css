@@ -1,0 +1,109 @@
+*{
+  font-family: sans-serif;
+
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(59, 50, 50);
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  text-align: center;
+  direction: rtl;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-height: 400px;
+  padding: 20px;
+  margin: 40px auto;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.game-area {
+  margin: 20px;
+}
+
+.input-wrapper {
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.input-digit {
+  width: 60px;
+  height: 60px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hint {
+  display: block;
+  font-size: 1em;
+  color: #ffeb3b;
+}
+
+.button , .input{
+  padding: 20px;
+  width: 60%;
+  height: 50px;
+  background-color: thistle;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms linear;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.input{
+  display: none;
+}
+.button:hover {
+  background-color: rgb(119, 110, 102);
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.feedback {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.scoreboard {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.timer {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.record {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffeb3b;
+}
+.playerContainer{
+  padding: 0;
+  margin-bottom: 0;
+}
+.player{
+  color: #ffeb3b;
+}

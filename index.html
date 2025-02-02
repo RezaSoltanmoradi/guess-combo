@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بازی حدس اعداد 🎲 </title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h3 class="playerContainer">
+      👤 بازیکن:
+      <span class="player" id="player">هنوز نامی وارد نشده!</span>
+    </h3>
+    <div class="container">
+      <h2>بازی حدس اعداد ترکیبی 🧩</h2>
+      <div class="game-area">
+        <div id="guessContainer"></div>
+      </div>
+      <button type="button" class="button" id="actionBtn">برای انتخاب نام بازیکن کلیک کنید!</button>
+      <input
+        type="number"
+        class="input"
+        id="gameInput"
+        placeholder= "سختی بازی عددی بین 1 تا 10 میباشد..."
+        min="1"
+        max="10"
+      />
+      <div id="feedback" class="feedback"></div>
+      <div id="guessCount" class="scoreboard">🎲 تعداد حدس‌ها: 0</div>
+      <div id="timer" class="timer">⏰زمان باقی‌مانده: 60 ثانیه</div>
+      <div id="record" class="record">🏆بهترین رکورد: -</div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
